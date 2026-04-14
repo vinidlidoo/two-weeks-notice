@@ -16,6 +16,10 @@ Sync markdown files to Google Docs with rich formatting (headings, bold, italic,
 
 Markdown is the source of truth. Google Docs are for sharing with collaborators.
 
+**Before any push:** check `.sync-state.json` for an existing fileId for the target markdown file. If one exists, use the update flow below — do not create a new doc. Only use "Create new" when no mapping exists.
+
+**Side effect:** `gws drive files update` and `gws drive files delete` both emit a stray `download.html` in the working directory. `rm -f download.html` after these commands.
+
 ### Create a new Google Doc from markdown
 
 ```bash
