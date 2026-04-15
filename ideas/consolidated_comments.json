@@ -1,0 +1,238 @@
+{
+  "spreadsheetId": "1tLzDlkEeTDjlhpJdibZ9By0At9NQ-IVtwiiPXRxybt0",
+  "sheetName": "Two Weeks Notice — Consolidated Reactions",
+  "comments": {
+    "AAAB3UX2UpY": {
+      "idea": "World State OS / Real-time World Data",
+      "origin": "P",
+      "row": 20,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T16:31:40.242Z",
+      "content": "Post my experience at Amazon, I still believe Knowledge Graph tech has potential untapped in today's industry. However, my experience also taught me that we can't go too broad with a grand vision of a super engine collecting all possible data sources in the world. Given limited resources of a startup, I think we need to start in an underserved niche, and I don't see that here yet."
+    },
+    "AAAB3UX2Upc": {
+      "idea": "Trend Mapping Engine",
+      "origin": "P",
+      "row": 21,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T16:33:43.655Z",
+      "content": "I think this is tied to the previous idea on world data. You can only build good synthesis and trend detection models if you have control over the underlying data, and vice versa. it’s very hard to uncouple them."
+    },
+    "AAAB3UX2Upk": {
+      "idea": "GTM Predictions & Scenario Modelling",
+      "origin": "P",
+      "row": 22,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T16:43:19.847Z",
+      "content": "I think the idea of running simulations of competitors or customers reacting to business decisions is attractive, but deceivingly so. The world is probabilistic, you only get one data point when you roll the dice of a business action; if the simulation doesn't predict it correctly, you can't conclude the simulation was wrong. In general, I think simulations in finance/business scenarios are heavily constrained by scarcity of feedback signal and any idea in that domain should address this constraint head-on."
+    },
+    "AAAB3UX2Upo": {
+      "idea": "Synthetic Attribution",
+      "origin": "P",
+      "row": 23,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T16:45:35.422Z",
+      "content": "My comment on GTM predictions and scenario modeling applies here too. Counterfactual simulation is valuable in principle, but it’s very hard to do because you can't prove the simulation reflects what would have happened otherwise, i.e., error signal scarcity"
+    },
+    "AAAB3UX2Ups": {
+      "idea": "Human Agentic Prediction Markets",
+      "origin": "P",
+      "row": 24,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T16:54:26.815Z",
+      "content": "I think pairing forecasting with prediction markets is interesting because it provides a way to prove your model is probabilistically accurate. If you can consistently assess the probability of future event as tracked by your track record on bets on-chain, then things like GTM predictions and synthetic attributions become easier to sell."
+    },
+    "AAAB3UX2Uq0": {
+      "idea": "LLM Accuracy & Hallucination Guard Rails",
+      "origin": "P",
+      "row": 25,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T17:04:32.325Z",
+      "content": "I'm not sure I see the angle here. Inference providers do provide a way for companies to keep their accuracy in check, hallucination guardrails. AWS Bedrock has that for example. I don't think that any company would want to outsource the actual guardrails definition. They would define what constitutes high accuracy or low hallucination rate — I don't think they would trust a third party to define that for them."
+    },
+    "AAAB3UX2UrA": {
+      "idea": "AI Governance & Risk Management Platform",
+      "origin": "P",
+      "row": 26,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T17:19:22.079Z",
+      "content": "I find this space too broad as is — there are a lot of players already, and without a more specific angle it's hard for me to react. Which slice of this would you want to go after?"
+    },
+    "AAAB3UX2UrE": {
+      "idea": "AI Agent Oversight Layer",
+      "origin": "P",
+      "row": 27,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T17:21:57.724Z",
+      "content": "This is just a personal preference, but I'm not particularly excited in risk assessment and control flows."
+    },
+    "AAAB3UX2UrI": {
+      "idea": "Policy Sentinel",
+      "origin": "P",
+      "row": 28,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T17:23:43.618Z",
+      "content": "Same comment than above. Might be good businesses into space but regulatory work does not excite me."
+    },
+    "AAAB3UX2UrM": {
+      "idea": "Brand Firewall",
+      "origin": "P",
+      "row": 29,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T17:26:29.367Z",
+      "content": "I find this one more attractive. I think that there will be increasing demand for proving authenticity and provenance coming from growth in AI capabilities. I think blockchain tech and cryptography can act as a counterweight there and I am keen to research and understand how startups could help fill the gap here."
+    },
+    "AAAB3UX2UrQ": {
+      "idea": "Human Layer of LLMs",
+      "origin": "P",
+      "row": 30,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T17:31:05.143Z",
+      "content": "AI model training is a space that requires a lot of skills and capabilities, which would be hard for us to get into, but if I entertain the idea for second I think that key for AI models to pick up on human emotions is identifying training data composed of correlates of emotions such as facial expression, heartbeat, verbalization after the fact. that kind of data does not present itself in abundance (unlike internet data), if I were to build in that space I would dig into how to collect that kind of data."
+    },
+    "AAAB3UX2UrU": {
+      "idea": "Cursor for Product Managers",
+      "origin": "P",
+      "row": 31,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T17:32:37.097Z",
+      "content": "This space is too red hot. With a gazillion companies and so much money already being thrown at this, I don't see us having an edge here."
+    },
+    "AAAB3UX2UrY": {
+      "idea": "Digital Twins",
+      "origin": "P",
+      "row": 32,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T17:33:33.595Z",
+      "content": "I have the same concerns here as with the synthetic attribution ideas: the difficulty lies in obtaining useful error signals in sufficient quantity."
+    },
+    "AAAB3UX2Urc": {
+      "idea": "Real News Filter",
+      "origin": "P",
+      "row": 33,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T17:35:14.140Z",
+      "content": "This idea is linked to the brand firewall idea above, which I like. I think there’s potential here coming out of recent advances in cryptography that haven't been tapped into yet. We'd need to do some research to confirm that."
+    },
+    "AAAB3UX2Urg": {
+      "idea": "Offline & Synthetic Data",
+      "origin": "P",
+      "row": 34,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T17:36:51.463Z",
+      "content": "I guess the key question here is: what offline data could we be well-positioned to obtain before others do?"
+    },
+    "AAAB3UX2Urk": {
+      "idea": "AI Career Navigation Layer",
+      "origin": "P",
+      "row": 35,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T17:38:12.473Z",
+      "content": "I think there’s a problem with customer willingness-to-pay for this idea. Also, frankly, the AI chatbots from the big research labs are probably good enough. I might be wrong, but that's my reaction."
+    },
+    "AAAB3UX2Uro": {
+      "idea": "Immigrant Talent Marketplace",
+      "origin": "P",
+      "row": 36,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T17:40:18.275Z",
+      "content": "This is really interesting and addresses a real problem. When I lived in Montreal, I saw many taxi drivers from developing countries who were doctors and engineers but couldn't get their degrees recognized in Quebec. This could be a real opportunity to help people, while addressing labor shortages. I like it and would be keen to dig into this a bit."
+    },
+    "AAAB3UX2Urs": {
+      "idea": "AI Reskilling Infrastructure",
+      "origin": "P",
+      "row": 37,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T17:41:50.535Z",
+      "content": "I’m personally passionate about reskilling, but my research from earlier this year suggests this is a pretty crowded space. We would need to dig one level deeper and identify a specific angle."
+    },
+    "AAAB3UX2Urw": {
+      "idea": "NGO Copilot",
+      "origin": "P",
+      "row": 38,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T17:44:15.482Z",
+      "content": "It would be hard to develop a business in a space that is shrinking from budget cuts, where customers have less money than they've had before.\n\nThis is unrelated, but I've been interested in digging into the pros and cons of for-profit versus nonprofit models. In which scenarios would a nonprofit be more effective regarding the services and products it offers?"
+    },
+    "AAAB3UX2Ur0": {
+      "idea": "Children's Progress Tracking",
+      "origin": "P",
+      "row": 39,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T17:46:11.453Z",
+      "content": "I understand why you're interested in early childhood ideas given your current stage of life, but to be honest, this isn't a space that naturally attracts me."
+    },
+    "AAAB3UX2Ur4": {
+      "idea": "Early Childhood Screenless Tech",
+      "origin": "P",
+      "row": 40,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T17:46:28.759Z",
+      "content": "same comment than above"
+    },
+    "AAAB3UX2Ur8": {
+      "idea": "Foundation Models for Education",
+      "origin": "P",
+      "row": 41,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T17:49:26.300Z",
+      "content": "Fine-tuning open-source LLMs hasn't yet produced use cases that surpass generalist models from Anthropic, Google, or OpenAI. While there's a lot of interest, I doubt startups are at a stage where they can fine-tune and compete with the big labs. Thinking Machine offers a promising API (Tinker API) for this, but I have yet to see a company use it to build a successful business. Could do a half-day sprint to confirm/invalidate here."
+    },
+    "AAAB3UX2UsA": {
+      "idea": "Emotional Intelligence Platform",
+      "origin": "P",
+      "row": 42,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T17:50:36.432Z",
+      "content": "I'm sympathetic to the problem space, but I have a big question mark on the \"how.\" No real ideas are coming to mind for how to actually execute this."
+    },
+    "AAAB3UX2UsE": {
+      "idea": "Brain Retraining / Therapeutic Tech",
+      "origin": "P",
+      "row": 43,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T17:52:55.119Z",
+      "content": "I need more information here. Startups in this space often feel too esoteric and claim to be science-based, but they usually end up being something people try once and never use again. That’s a just general statement, though. Open to hearing about specifics."
+    },
+    "AAAB3UX2UsI": {
+      "idea": "Decision Making Layer",
+      "origin": "P",
+      "row": 44,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T17:54:28.720Z",
+      "content": "Feels like it revolves around the same theme as some of the earlier ideas, like GTM predictions and synthetic attributions. The comments I left there apply here, too."
+    },
+    "AAAB3UX2UsM": {
+      "idea": "Recruitment & Skills Assessment",
+      "origin": "P",
+      "row": 45,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T17:56:03.631Z",
+      "content": "I had a similar idea in my list, so obviously I like the concept, but I haven't found a compelling angle yet, one that would make me want to move to the prototyping phase."
+    },
+    "AAAB3UX2UsQ": {
+      "idea": "AI-Native Agency Platform",
+      "origin": "P",
+      "row": 46,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T17:57:26.050Z",
+      "content": "I have an idea that corresponds to this one. I applied it to the Japanese agency doing cross-border work I was telling you about on the phone."
+    },
+    "AAAB3UX2UsU": {
+      "idea": "Remaking Traditional Apps",
+      "origin": "P",
+      "row": 47,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T18:02:56.391Z",
+      "content": "I think this disruption is inevitable, but we'd need to identify the right use case but remaking traditional apps to better support voice interaction is key to me. I’m increasingly using a voice interface in everything that I do these days, including manipulating this very spreadsheet with Claude Code. It’s currently clunky because the apps weren't built for it (like Claude struggles because comments aren't anchored to a specific cell in the exposed APIs), but if we built apps *voice first*, agents could manipulate them in ways that aren't possible today, and incumbent companies are so obviously slow to update their apps and their underlying APIs to support this."
+    },
+    "AAAB3UX2UsY": {
+      "idea": "Sovereign AI",
+      "origin": "P",
+      "row": 48,
+      "author": "Vincent Ethier",
+      "createdTime": "2026-04-15T18:08:49.041Z",
+      "content": "I get the motivation for nation-states to reduce reliance on U.S. or Chinese tech giants, but the startup play here is unclear. I can see governments funding local AI companies, but it will be impossible for them to build capabilities with similar levels of intelligence. I think the best approach for nation-states is to rely on a layer of companies building inference solutions on top of the tech giants (like openrouter.ai). These might be slightly more expensive, but they diversify inference to avoid vendor lock-in."
+    }
+  }
+}

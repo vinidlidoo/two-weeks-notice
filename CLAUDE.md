@@ -4,13 +4,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Two Weeks Notice — a 2-week business idea brainstorming sprint between Vincent and Pavan (UK-based). Vincent manages ideas as markdown files in this repo and syncs them to Google Docs for Pavan to review and comment on.
+Two Weeks Notice — a 2-week business idea brainstorming sprint between Vincent and Pavan (UK-based). Vincent manages ideas as markdown files in this repo and syncs them to Google Drive (a Doc for the long list, a Sheet for consolidated cross-reactions) for collaborative review.
 
 ## Architecture
 
-- `ideas/` — markdown files containing business ideas (source of truth)
+- `ideas/` — markdown files containing business ideas (source of truth); `ideas/consolidated.csv` is the seed for the shared reactions sheet
 - `.sync-state.json` — tracks sync state between local markdown and Google Docs (revision IDs, processed comments)
-- `.claude/skills/sync-gdocs/` — project skill documenting the full sync workflow
+- `.claude/skills/sync-gdocs/` — project skill documenting the full sync workflow; includes `build_consolidated_sheet.py` for the reactions sheet
 - `.claude/skills/gws-*/` — symlinks to `.agents/skills/` (installed via `npx skills add`)
 - `skills-lock.json` — pins gws skill versions from the googleworkspace/cli repo
 
@@ -32,6 +32,6 @@ The sync pipeline uses `pandoc` for format conversion and `gws` CLI for Google D
 ## Conventions
 
 - Google Doc comments from Pavan are reflected locally as `<!-- FEEDBACK: Author (date): "text" -->` (compatible with neovim review workflow)
-- Markdown is the source of truth; Google Docs are read-only for collaborators
+- Markdown is the source of truth; the long-list Doc is read-only for collaborators (round-tripped via comments). The consolidated reactions Sheet is editable by Pavan (scoring + cell comments)
 - Use `gws` commands with `dangerouslyDisableSandbox: true` (requires IPC/network access)
 - The `gws drive` upload path must be relative to the current directory (not absolute/tmp paths)
