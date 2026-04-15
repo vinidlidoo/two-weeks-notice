@@ -30,6 +30,24 @@
       "ref": "main",
       "sourceType": "github",
       "computedHash": "b197590681ce3d5a52e9c15a68652b5445d111dbfc0dc453f68fb0785aac443c"
+    },
+    "gws-sheets": {
+      "source": "googleworkspace/cli",
+      "ref": "main",
+      "sourceType": "github",
+      "computedHash": "21c951f8bf399bb941740ab8b048157b43088ad96b743976e88abb0046d263d2"
+    },
+    "gws-sheets-append": {
+      "source": "googleworkspace/cli",
+      "ref": "main",
+      "sourceType": "github",
+      "computedHash": "00c79cd5e3f621474220a90f2c9baf5aa5732ef3c0354cdba6b8ff5921bccd36"
+    },
+    "gws-sheets-read": {
+      "source": "googleworkspace/cli",
+      "ref": "main",
+      "sourceType": "github",
+      "computedHash": "082f6b6ee503a7438b12338024471f772f90193326cca3b6428e2450879785ff"
     }
   }
 }
