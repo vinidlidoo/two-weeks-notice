@@ -9,6 +9,7 @@ Two Weeks Notice — a 2-week business idea brainstorming sprint between Vincent
 ## Architecture
 
 - `ideas/` — markdown files containing business ideas (source of truth); `ideas/consolidated.csv` is the seed for the shared reactions sheet
+- `ideas/briefs/` — 1–2 page decision / thesis briefs per idea (see `idea-brief` skill); synced to the `Briefs` subfolder in Drive (ID `1aYXSiOu85xKCBrsqRc5r3x4FhW5t3lPS`)
 - `.sync-state.json` — tracks sync state between local markdown and Google Docs (revision IDs, processed comments)
 - `.claude/skills/sync-gdocs/` — project skill documenting the full sync workflow; includes `build_consolidated_sheet.py` for the reactions sheet
 - `.claude/skills/gws-*/` — symlinks to `.agents/skills/` (installed via `npx skills add`)
