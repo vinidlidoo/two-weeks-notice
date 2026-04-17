@@ -30,6 +30,15 @@ rm <file>.docx
 
 Returns a file ID — save it for future updates.
 
+**Fallback if create-with-conversion 500s:** on some files the inline docx→Google-Doc conversion endpoint returns 500 Internal Error consistently (raw docx upload still works). Upload as raw docx, then copy with conversion and delete the intermediate:
+
+```bash
+gws drive files create --upload <file>.docx --json '{"name": "<file>.docx", "parents": ["<FOLDER_ID>"]}'
+gws drive files copy --params '{"fileId": "<RAW_ID>"}' --json '{"name": "<title>", "mimeType": "application/vnd.google-apps.document", "parents": ["<FOLDER_ID>"]}'
+gws drive files delete --params '{"fileId": "<RAW_ID>"}'
+rm -f download.html
+```
+
 ### Update an existing Google Doc
 
 ```bash
